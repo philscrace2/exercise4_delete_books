@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "delete_books",
   "version": "",
   "description": "",
   "keywords": [],
@@ -7,12 +7,23 @@
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.12.13",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-jest": "^26.6.2",
+    "jest": "24.7.1",
+    "jest-cli": "24.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
